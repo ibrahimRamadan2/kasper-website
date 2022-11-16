@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+}
+.container .image{
+    width: 100px;
+    height: 100px;
+    background-color:#212121 ;
+    border-radius: 100px;
+    margin-right: 60px;
+    transition: 0.3s;
+    
+}
+.container .content{
+    position: relative;
+    border-bottom: 1px solid gray;
+}
+.container .content .comment{
+    color: #212121 ;
+    padding-bottom: 35px;
+    max-width: 270px;
+}
+.container .content .author{
+    position: absolute;
+    color: #B0ACAE;
+    right: 5px;
+    bottom: 5px;
+}
+
+@media (max-width:1020px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .image{
+       margin-bottom: 50px;
+        
+    }
+    .container .content .comment{
+        max-width: 100%;
+    }
+}

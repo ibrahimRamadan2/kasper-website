@@ -1,0 +1,108 @@
+.about{
+    background-color: white;
+    height: 700px;
+    overflow: hidden;
+}
+.images{
+   position: relative;
+   
+}
+.images img {
+    position: absolute;
+    z-index: 20;
+    top: 100px;
+    left: calc(calc(100% - 790px) / 2 );
+}
+
+.statics{
+    width: 1200px;
+    margin: auto;   
+    padding: 65px 0px ; 
+}
+.statics .pricing-cards{
+    padding: 10px 0px;
+    background-color: rgba(0, 199, 252, 0.45);
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(245px , 1fr));
+    row-gap: 25px;
+}
+
+/*//////////////////////////// start details-container \\\\\\\\\\\\*/
+.details-container{
+    background-color: white;
+    padding: 60px 0px;
+}
+.details{
+    color: white;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.details .skills ul{
+    min-width: 525px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin: 0px;
+    margin-top: 40px;
+}
+.details .skills ul li{
+    margin-bottom: 25px;
+}
+.details .comments{
+    margin-top: 60px;
+    padding: 0px 10px;
+}
+.details .comments li{
+    margin-bottom: 70px;
+}
+
+/* end details-container */
+
+/* Start Qout */
+.quote {
+    width: 100%;
+    background-color:#212121 ;
+    padding: 65px 0px;
+    color: white;
+    text-align: center;
+}
+.quote .text{
+    font-size: 30px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+/* end Qout */
+
+
+@media (max-width:735px) {
+    .images{
+        display: none;
+    }   
+    .about{
+        height: auto;
+    }
+}
+@media (max-width:1020px) {
+    .details{
+        flex-direction: column;
+    }
+}
+@media (max-width:1020px) {
+    .details .skills ul{
+        max-width: 695px;
+        margin: auto;
+        margin-top: 25px;
+    }
+}
+ 
+@media (max-width:1200px) {
+    .statics{
+        width: 100%; 
+    }
+    .details{
+        width: 100%; 
+    }
+}
