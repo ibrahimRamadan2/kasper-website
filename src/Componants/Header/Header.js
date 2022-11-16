@@ -27,7 +27,7 @@ function Header() {
   const bullet_list=[0,1,2]
   return (
     <>
-      <header>
+      <header id="home">
         <nav>
           <div className={classes["logo"]}>
             <img src="./images/logo.png" alt="logo"></img>
@@ -40,22 +40,22 @@ function Header() {
                 } `}
               >
                 <li>
-                  <a href="#asd">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="#asd">Services</a>
+                  <a href="#services">Services</a>
                 </li>
                 <li>
-                  <a href="#asd">Porfolio</a>
+                  <a href="#portfolio">Porfolio</a>
                 </li>
                 <li>
-                  <a href="#asd">About</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#asd">Pricing</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
                 <li>
-                  <a href="#asd">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

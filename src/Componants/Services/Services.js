@@ -4,7 +4,7 @@ import ServiceCard from '../ServiceCard/ServiceCard'
 import SectionHeading from '../SectionHeading/SectionHeading'
 function Services() {
   return ( 
-    <div className={classes['container']}>
+    <div id='services' className={classes['container']}>
         <SectionHeading title={"SERVICES"}/>
         <div className={classes['services']}>
            <ServiceCard iconClass={'fa-solid fa-desktop'}/>
