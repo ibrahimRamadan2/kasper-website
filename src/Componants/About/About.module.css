@@ -98,9 +98,10 @@
     }
 }
  
-@media (max-width:1200px) {
+@media (max-width:1220px) {
     .statics{
         width: 100%; 
+       
     }
     .details{
         width: 100%; 

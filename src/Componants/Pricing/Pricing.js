@@ -4,7 +4,7 @@ import PriceCard from "../PriceCard/PriceCard";
 import classes from './Pricing.module.css'
 function Pricing() {
   return (
-    <div className={classes['pricing']}>
+    <div id={'pricing'} className={classes['pricing']}>
       <SectionHeading title={'PRICING'}/>
       <div className={classes['container']}>
         <div className={classes['pricing-types']}>
