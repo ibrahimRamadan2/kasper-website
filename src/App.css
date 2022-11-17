@@ -1,6 +1,8 @@
 body{
-  background-color: black;
+  background-color: rgba(0, 0, 0 ,0.87);
   margin: 0px;
   padding: 0px;
 }
- 
+html{
+  scroll-behavior: smooth;
+}

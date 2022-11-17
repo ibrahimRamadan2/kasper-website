@@ -1,0 +1,19 @@
+.container{
+    background-color: white;
+    padding-bottom: 80px;
+}
+.services{
+    width: 900px;
+    margin: auto;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fill , minmax(435px ,1fr));
+}
+
+@media (max-width:900px) {
+    .services{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}

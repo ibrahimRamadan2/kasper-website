@@ -1,0 +1,15 @@
+.heading{
+    text-align: center;
+     
+
+}
+
+.heading h3{
+    margin-bottom: 30px;
+    color: #212121;
+}
+.heading p{
+    max-width: 415px;
+    margin: auto;
+    color: #B0ACAE;
+}

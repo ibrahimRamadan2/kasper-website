@@ -1,0 +1,42 @@
+.card{
+    display: grid;
+    grid-template-columns: 155px 1fr;
+}
+.card i{
+    padding-left: 15px;
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+.content h2{
+    margin: 0px;
+    margin-bottom: 25px;
+    color: #03B7E6;
+    font-size: 25px;
+}
+.content p{
+    color: #B0ACAE;
+    font-size: 14px;
+}
+
+@media(max-width:900px){
+    .card{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+    }
+    .content h2{
+        font-size: 35px;
+    }
+    .card i{
+         margin-bottom: 25px;
+        padding-left: 15px;
+        font-size: 40px;
+        padding-top: 5px;
+    }
+    .content p{
+        padding: 0px 40px;         
+        font-size: 17px;
+    }
+}

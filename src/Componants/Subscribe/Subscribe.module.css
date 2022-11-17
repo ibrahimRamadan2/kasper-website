@@ -1,0 +1,74 @@
+.subscribe {
+  padding: 70px 10px;
+  color: white;
+}
+
+.subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+.subscribe .container form {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin-right: 20px;
+  border: 1px solid white;
+}
+.subscribe input {
+  border: none;
+}
+.subscribe .container form i{
+  margin: 0px 20px;
+  font-size: 20px;
+}
+.subscribe .container form .text-input:focus {
+  outline: none;
+}
+.subscribe .container form .text-input {
+  width: calc(100% - 200px);
+  height: 60px;
+  background-color: transparent;
+  color: white;
+  padding: 2px 5px;
+  font-size: 18px;
+}
+ 
+.subscribe .container form .btn-input {
+  width: 160px;
+  height: 60px;
+  color: white;
+  background-color: #03b7e6;
+}
+
+.subscribe .container p {
+  max-width: 450px;
+}
+
+@media (max-width: 930px) {
+  .subscribe .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .subscribe .container p {
+    order: 1;
+    margin-bottom: 34px;
+    max-width: 100%;
+  }
+  .subscribe .container form {
+    margin: 0px;
+    order: 2;
+    display: flex;
+    align-items: center;
+    width: 76%; 
+    }
+}
+
+@media (max-width: 1200px) {
+  .subscribe .container {
+    width: 100%;
+  }
+}
