@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kasper-website/static/css/main.e98e8fcb.css",
+    "main.js": "/kasper-website/static/js/main.c77d9394.js",
+    "index.html": "/kasper-website/index.html",
+    "main.e98e8fcb.css.map": "/kasper-website/static/css/main.e98e8fcb.css.map",
+    "main.c77d9394.js.map": "/kasper-website/static/js/main.c77d9394.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e98e8fcb.css",
+    "static/js/main.c77d9394.js"
+  ]
+}
